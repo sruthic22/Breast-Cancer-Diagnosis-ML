@@ -13,11 +13,10 @@ class InputFeatures(BaseModel):
     feature1: float
     feature2: float
     feature3: float
-    # Add more features as necessary
 
 @app.post("/predict/")
 def predict(features: InputFeatures):
-    input_data = np.array([[features.feature1, features.feature2, features.feature3]])  # Add more features
+    input_data = np.array([[features.feature1, features.feature2, features.feature3]]) 
     input_data_scaled = scaler.transform(input_data)
     prediction = model.predict(input_data_scaled)
     return {"prediction": "Cancer" if prediction[0] == 1 else "Not Cancer"}
