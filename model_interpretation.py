@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 # Load dataset
-data = pd.read_csv('breast_cancer_data.csv')  # Replace with your dataset
+data = pd.read_csv('breast_cancer_data.csv') 
 X = data.drop('target', axis=1)
 y = data['target']
 
