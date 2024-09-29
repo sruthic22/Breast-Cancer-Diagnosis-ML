@@ -1,6 +1,10 @@
 # Breast-Cancer-Diagnosis-ML
 
 ### Developed and implemented traditional and deep learning models to classify breast cancer tumors with high accuracy, utilizing Logistic Regression, Decision Trees, SVM, and neural networks. Employed hyperparameter tuning and dimensionality reduction techniques like PCA and t-SNE. Built a FastAPI web application for real-time predictions of malignancy and recurrence risk.
+
+### Note on Confidentiality
+This project was part of a research initiative at Northeastern University focused on breast cancer prediction and analysis. Due to the sensitive nature of the research, not all code and data can be shared publicly. The files included in this repository represent selected portions of our work and demonstrate the methodologies and techniques employed during the project. Thank you for your understanding.
+
 ---
 
 ### 1. **train_model.py**
