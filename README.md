@@ -17,4 +17,3 @@ This script implements advanced techniques for model interpretation and visualiz
 ### 3. **app.py**
 This FastAPI web application enables real-time predictions of tumor malignancy and recurrence risk based on user-inputted features. It loads a pre-trained machine learning model and scaler to provide accessible predictions, enhancing the usability of the predictive analytics developed in this project. Users can interact with the model through a simple RESTful API.
 
-Feel free to modify any of these blurbs to better match your style or add additional details!
