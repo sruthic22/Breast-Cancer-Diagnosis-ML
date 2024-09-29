@@ -6,7 +6,7 @@ from sklearn.metrics import classification_report
 from sklearn.decomposition import PCA
 
 # Load dataset
-data = pd.read_csv('breast_cancer_data.csv')  # Replace with your dataset
+data = pd.read_csv('breast_cancer_data.csv') 
 
 # Data preprocessing
 X = data.drop('target', axis=1)  # Features
